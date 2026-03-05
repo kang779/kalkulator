@@ -1,5 +1,7 @@
-# Main Application Entry Point
+# Entry Point for POS Application
+
+# This is the main entry point for the Point Of Sale application. 
+# Additional functionalities will be integrated here.
 
 if __name__ == '__main__':
-    print("Welcome to the POS System")
-    # Initialize the application here
+    print("Starting POS Application...")
