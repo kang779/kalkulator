@@ -1,29 +1,33 @@
-# Kalkulator Project
+# Warung POS System Documentation
 
-## Overview
-This project is a calculator application that provides basic arithmetic operations such as addition, subtraction, multiplication, and division.
+## Introduction
+This documentation outlines the functionalities and operation of the Warung POS (Point of Sale) system, specifically designed for retail environments where a barcode scanner is utilized for product checkout.
 
 ## Features
-- Simple and intuitive user interface
-- Supports basic arithmetic operations
-- Provides error handling for division by zero
-
-## Usage
-To use the calculator, simply enter the numbers and select the desired operation.
+- **Barcode Scanning**: Quickly scan products using a barcode scanner to streamline the checkout process.
+- **Sales Tracking**: Monitor daily sales and inventory levels.
+- **User Management**: Allow multiple user logins with varying permissions.
+- **Reporting**: Generate sales reports for specific time frames.
 
 ## Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/kang779/kalkulator.git
-   ```
-2. Navigate to the project directory:
-   ```bash
    cd kalkulator
    ```
-3. Run the application:
+2. Install the necessary dependencies:
    ```bash
-   <run command>
+   npm install
    ```
+3. Configure the environment variables as needed.
 
-## Contributing
-Feel free to contribute by submitting a pull request or by opening issues to suggest improvements.
+## Usage
+1. Start the application:
+   ```bash
+   npm start
+   ```
+2. Use the barcode scanner to scan items for checkout.
+3. Access the sales report from the dashboard to view your daily performance.
+
+## Support
+For any issues or feature requests, please open an issue in the GitHub repository.
